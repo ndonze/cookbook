@@ -1,7 +1,7 @@
 ---
 title: "Banana Oat Pancakes"
 date: 2020-05-13T20:42:21-05:00
-draft: true
+draft: false
 ---
 
 ## Ingredients

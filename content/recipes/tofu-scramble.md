@@ -1,7 +1,7 @@
 ---
 title: "Tofu Scramble"
 date: 2020-05-13T20:13:26-05:00
-draft: true
+draft: false
 ---
 
 ## Ingredients
