@@ -1,0 +1,33 @@
+name: Build and deploy Hugo site
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      env:
+        EXTERNAL_REPOSITORY: ndonze/recipes-site
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./public
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        emptyCommits: false
+        commitMessage: ${{ github.event.head_commit.message }}
