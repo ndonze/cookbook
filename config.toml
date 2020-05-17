@@ -1,4 +1,4 @@
 baseURL = "https://ndonze.github.io/cookbook/"
 languageCode = "en-us"
-title = "Our Recipes"
+title = "Our Cookbook"
 theme = "ananke"
