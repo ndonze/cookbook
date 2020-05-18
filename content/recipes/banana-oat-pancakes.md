@@ -11,7 +11,7 @@ draft: false
 - 1 tsp baking powder
 - 1 tbsp extra virgin olive oil
 - 2 tbsp maple syrup
-- 3/4 + 3 tbsp non-dairy milk
+- 3/4 cup + 3 tbsp non-dairy milk
 - 1/4 tsp sea salt
 
 ## Instructions
