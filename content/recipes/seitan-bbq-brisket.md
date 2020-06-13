@@ -1,5 +1,5 @@
 ---
-title: "Seitan Bbq Brisket"
+title: "Seitan BBQ Brisket"
 date: 2020-06-13T11:51:50-05:00
 draft: false
 ---
