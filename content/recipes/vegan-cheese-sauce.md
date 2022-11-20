@@ -14,7 +14,7 @@ draft: false
 - 1 tbsp lemon juice
 - 1/2 cup nutritional yeast
 - 1/4 tsp onion powder
-- 1/4 tsp carlic powder
+- 1/4 tsp garlic powder
 
 ## Instructions
 
